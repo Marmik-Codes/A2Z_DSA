@@ -130,15 +130,41 @@ int main() {
  
     // Set -> sorted and Unique
 
-    set<int> st;
-    st.insert(1);
-    st.insert(2);
-    st.insert(2);
-    st.insert(4);
-    st.insert(3);
+    // set<int> st;
+    // st.insert(1);
+    // st.insert(2);
+    // st.insert(2);
+    // st.insert(4);
+    // st.insert(3);
 
+    // int cnt = st.count(2);
+
+    // auto it = st.find(2);
+    // cout << *(it);
+    // cout << cnt;
     
+    // Unordered Set means it stores Unique but in unsorted order
 
+    // Mappp
+
+    // map<int,int> mpp;
+
+    // mpp.insert({1,2});
+    // mpp[2] = 3;
+    // mpp.emplace(3, 4);   // ✅ fixed
+
+    // for (auto it : mpp) {
+    //     cout << it.first << " " << it.second << endl;
+    // }
+
+    // cout << mpp[1]; // gives us value of key provided
+
+    // auto it = mpp.find(3);
+    // cout << (*it).second;
+
+    // Multimap allows Duplicate Keys 
+    // UnorderedMap have uniques keys but in randomized order
+    
 
     return 0;
 }
