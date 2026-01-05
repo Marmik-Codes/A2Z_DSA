@@ -1,0 +1,23 @@
+Rules to solve any pattern in the world:
+
+            Inner loop is used for number of colums
+
+no of Rows to print         *   *   *   *   *
+                            *   *   *   *   *
+                            *   *   *   *   *
+                            *   *   *   *   *
+                            *   *   *   *   *
+
+1. Outer loop is used to count the no. of rows 
+2. For the inner loop, focus on the columns & somehow connect them to rows
+3. Print any pattern in inner for loop 
+4. Observe symmetry (Optional) 
+
+
+
+
+                    * * * * *   0           [0,5,0]
+                     * * * *    1           [1,4,1]
+                      * * *     2           [2,3,2]
+                       * *      3           [3,2,3]
+                        *       4           [4,1,4]
