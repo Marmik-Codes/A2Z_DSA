@@ -61,3 +61,6 @@ int main(){
     cout << endl;
     return 0;
 }
+
+// Time Complexity : O(n log n)
+// Space Complexity : O(n) (due to the temporary array used for merging)
