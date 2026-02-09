@@ -1,41 +1,49 @@
-# 📘 A2Z Data Structures & Algorithms (DSA)
+# 📘 A2Z Data Structures & Algorithms (DSA) – C++
 
-This repository documents my **A2Z Data Structures & Algorithms learning journey**, where I practice and implement DSA concepts in a structured and consistent way.
+This repository documents my **A2Z Data Structures & Algorithms journey implemented completely in C++**.
 
-The main objective is to build **strong fundamentals**, improve **problem-solving skills**, and prepare for **technical interviews**.
+The purpose of this repository is to build **strong DSA fundamentals**, write **efficient and optimized code**, and prepare thoroughly for **coding interviews and placements**.
 
 ---
 
-## 🚀 Learning Strategy
+## 🚀 Learning Approach
 
-I am following an **A2Z DSA roadmap**, covering concepts from basics to advanced.
+I am following a **structured A2Z DSA roadmap**, covering concepts from basics to advanced.
 
-Each topic includes:
-- Clear and clean code implementations
-- Logical problem-solving approaches
-- Time & Space Complexity analysis
+For every topic, I focus on:
+- Clear and clean C++ implementations
+- Strong logic and problem-solving approach
+- Use of STL where applicable
+- Time and Space Complexity analysis
 - Interview-oriented solutions
 
 ---
 
-## 🧠 Language Transition Plan
+## 🧠 Programming Language
 
-To balance **performance, fundamentals, and readability**, I am following this approach:
+- 🔹 **C++ (Only)**  
+  All Data Structures and Algorithms in this repository are implemented using **C++** to strengthen fundamentals, memory management understanding, and performance optimization.
 
-- 🔹 **C++** → Used for **basics up to Sorting**
-  - Basics
-  - Arrays (intro)
-  - Recursion
-  - Searching
-  - Sorting Algorithms
+---
 
-- 🔹 **Python** → Used **from Arrays onwards**
-  - Arrays (problem solving)
-  - Strings
-  - Linked List
-  - Stack & Queue
-  - Trees & Graphs
-  - Dynamic Programming
-  - Advanced DSA topics
+## 📂 Folder Structure
 
-> This approach helps me build strong core logic in **C++** and then focus on **fast problem-solving and clarity** using **Python**.
+```text
+A2Z-DSA/
+│
+├── Basics/
+├── Arrays/
+├── Strings/
+├── Recursion/
+├── Searching/
+├── Sorting/
+├── LinkedList/
+├── Stack_Queue/
+├── Trees/
+├── Binary_Search_Trees/
+├── Graphs/
+├── Greedy/
+├── Dynamic_Programming/
+├── Bit_Manipulation/
+├── Sliding_Window/
+└── Two_Pointers/
