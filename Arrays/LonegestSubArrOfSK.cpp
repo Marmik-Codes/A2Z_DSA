@@ -1,6 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Brute Force Approach
+int LSA(vector<int>& arr,int k){
+    int n = arr.size();
+    int maxlen = 0;
+    for (int i = 0; i < n; i++)
+    {
+        int sum = 0;
+
+        for (int j = i; j < n; j++)
+        {
+            sum += arr[j];
+            if (sum == k)
+            maxlen = max(maxlen, (j - i) + 1);
+        }
+        
+    }
+    return maxlen;
+}
+
+// optimal approach  
 int LSA(vector<int>& arr , int k) {
     int n = arr.size();
     int maxlen = 0;
