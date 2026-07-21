@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int fibo(int n){
+    if(n == 0) return 5;
+    if(n == 1) return 6;
+    
+    return fibo(n-1) + fibo(n-2);
+}
+
+int main(){
+    int n;
+    cout << "Enter number of terms: ";
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        cout << fibo(i) << " ";
+    }
+
+
+
+    return 0;
+}
